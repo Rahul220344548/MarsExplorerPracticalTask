@@ -102,6 +102,7 @@ public class Simulator {
             rocks.remove(r);
         }
 
+        // added code for reduce crumbs
         if ((step % 40) == 0) {
             tempField.reduceCrumbs();
         }
